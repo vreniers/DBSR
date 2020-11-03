@@ -18,11 +18,6 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.concurrent.TimeUnit;
 
-import com.google.common.collect.BoundType;
-import com.google.common.collect.SortedMultiset;
-import com.google.common.collect.SortedSetMultimap;
-import com.google.common.collect.TreeMultimap;
-import com.google.common.collect.TreeMultiset;
 
 import dbsr.candidate.Candidate;
 import dbsr.candidate.CandidateSequences;

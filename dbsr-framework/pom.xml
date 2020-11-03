@@ -20,36 +20,8 @@
 		</pluginManagement>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>jsqlparser-snapshots</id>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<url>https://oss.sonatype.org/content/groups/public/</url>
-		</repository>
-	</repositories>
-
 	<dependencies>
-		<dependency>
-      <groupId>org.hdrhistogram</groupId>
-      <artifactId>HdrHistogram</artifactId>
-      <version>2.1.4</version>
-</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.facebook.presto/presto-parser -->
-		<dependency>
-		    <groupId>com.facebook.presto</groupId>
-		    <artifactId>presto-parser</artifactId>
-		    <version>0.178</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.jgrapht</groupId>
-			<artifactId>jgrapht-core</artifactId>
-			<version>1.0.1</version>
-		</dependency>
-		
+	
 		<!--  MultiMap (multiple same value keys) -->
 		<dependency>
 		  <groupId>com.google.guava</groupId>
